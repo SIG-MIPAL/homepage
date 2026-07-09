@@ -1,0 +1,6 @@
+# Local editing backend — never pushed to GitHub (backed up via OneDrive instead).
+admin/
+
+# Node
+node_modules/
+npm-debug.log*

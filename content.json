@@ -1,0 +1,744 @@
+{
+  "meta": {
+    "title": "MIPAL — Multimodal Intelligence & Physical Application Lab",
+    "description": "MIPAL is a research lab at Tongji University's Spatial Intelligence Group, focused on multimodal learning, spatial intelligence, and embodied perception.",
+    "keywords": "MIPAL, Multimodal Intelligence, Spatial Intelligence, Tongji University, Egocentric Vision, VLM, LLM, Embodied Perception",
+    "favicon": "images/fdj8t-hzjcv-001-hied2.png",
+    "last_updated": "Jun., 2026"
+  },
+  "home": {
+    "lab_name": "MIPAL",
+    "full_name": "Multimodal Intelligence & Physical Application Lab",
+    "affiliation": "Spatial Intelligence Group (SIG), Tongji University",
+    "hero_image": "",
+    "intro": [
+      "MIPAL (Multimodal Intelligence &amp; Physical Application Lab) is a research group within the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG)</a> at Tongji University, led by Prof. Xun Jiang.",
+      "Our research spans multimodal learning, spatial intelligence (particularly from an egocentric view), and VLM/LLM reasoning enhancement. We are also highly interested in embodied multimodal spatial perception and navigation.",
+      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are welcome to join MIPAL and grow together with us!</span>"
+    ],
+    "highlights": [
+      "Multimodal Learning",
+      "Egocentric / Spatial Intelligence",
+      "VLM/LLM Reasoning",
+      "Embodied Perception & Navigation"
+    ],
+    "cta_links": [
+      {
+        "label": "Join Us",
+        "url": "mailto:xun_jiang@outlook.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/XunCHN"
+      }
+    ]
+  },
+  "nav": [
+    "home",
+    "news",
+    "people",
+    "publications",
+    "resources",
+    "contact"
+  ],
+  "news": [
+    {
+      "date": "2026/07",
+      "text": "Two papers about egocentric error detection and point-cloud representation were accepted by ACM MM 2026! 🎉🎉 "
+    },
+    {
+      "date": "2026/07",
+      "text": "One paper about egocentric online action segmentation was accepted by TIP! 🎉🎉 "
+    },
+    {
+      "date": "2026/03",
+      "text": "Five papers about multimodal learning, egocentric vision, and acoustic UAV localization accepted by ICME 2026! 🎉🎉 Congratulations to all my co-authors!"
+    },
+    {
+      "date": "2026/02",
+      "text": "Two papers about multimodal learning and multimodal acoustic field synthesis accepted by CVPR and CVPR Findings 2026!"
+    },
+    {
+      "date": "2026/01",
+      "text": "Our work on audio and acoustic signal processing was accepted by ICASSP 2026! 🎉🎉 Congratulations to my collaborator Qichen!"
+    },
+    {
+      "date": "2026/01",
+      "text": "Our work on generalizable egocentric task verification was accepted by IEEE TPAMI!"
+    },
+    {
+      "date": "2025/12",
+      "text": "Our work on egocentric online action segmentation was accepted by IEEE TMM!"
+    },
+    {
+      "date": "2025/11",
+      "text": "Two papers about multimodal learning and egocentric video understanding accepted by AAAI 2026! 🎉🎉 Congratulations to Disen and Chong!"
+    },
+    {
+      "date": "2025/08",
+      "text": "We won ACM MM 2025 Grand Challenge ERR@HRI 2.0! 🎉🎉 Our technical report has been accepted for publication in proceedings."
+    }
+  ],
+  "people": {
+    "faculty": [
+      {
+        "name": "Xun Jiang",
+        "role": "Team Leader",
+        "photo": "images/xun_jiang.png",
+        "homepage": "",
+        "scholar": "https://scholar.google.com/citations?user=oAjQIUEAAAAJ",
+        "github": "https://github.com/XunCHN/",
+        "email": "xun_jiang@tongji.edu.cn",
+        "page": "xun-jiang"
+      },
+      {
+        "name": "Qichen Tan",
+        "role": "Guest Researcher",
+        "photo": "images/41b59dc1ae1cc9436ff23a473a7a80a9.jpeg",
+        "homepage": "https://tylertam98.github.io/",
+        "scholar": "https://scholar.google.com/citations?user=Doo7G5UAAAAJ&hl=zh-CN",
+        "github": "",
+        "email": "qctan@suda.edu.cn",
+        "note": "",
+        "page": ""
+      }
+    ],
+    "phd": [
+      {
+        "name": "Qing Li",
+        "role": "Ph.D Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      },
+      {
+        "name": "Chen Wu",
+        "role": "Ph.D Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      }
+    ],
+    "master": [
+      {
+        "name": "Yufan Gu",
+        "role": "Master Student (2025-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      },
+      {
+        "name": "Ziheng Zhang",
+        "role": "Master Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      },
+      {
+        "name": "Le Bo",
+        "role": "Master Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      },
+      {
+        "name": "Siyuan Zeng",
+        "role": "Master Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      },
+      {
+        "name": "Jiankang Zhao",
+        "role": "Master Student (2026-)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      }
+    ],
+    "visiting": [
+      {
+        "name": "Disen Hu",
+        "role": "PhD Student (Visiting)",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
+        "github": "",
+        "email": "",
+        "note": "",
+        "page": ""
+      }
+    ]
+  },
+  "publications": {
+    "journals": [
+      {
+        "id": "pcml",
+        "title": "Egocentric Online Action Segmentation via Parametric Context Memory Learning",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Chong Liu"
+          },
+          {
+            "name": "Zheng Wang"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Zhe Sun"
+          },
+          {
+            "name": "Andrzej Cichocki"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE Transactions on Image Processing",
+        "venue_short": "TIP 2026",
+        "thumb": "images/e7171301-644a-42a9-850e-d2dc947b45ff.png",
+        "preview": "images/e7171301-644a-42a9-850e-d2dc947b45ff.png",
+        "paper_link": "",
+        "code_link": "https://github.com/XunCHN/PCML",
+        "keywords": "Egocentric Vision; Temporal Action Segmentation; Parametric Memory"
+      },
+      {
+        "id": "getv",
+        "title": "Generalizable Egocentric Task Verification Via Cross-Modal Hybrid Hypergraph Matching",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Zheng Wang"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "venue_short": "TPAMI 2026",
+        "thumb": "images/getv_thumb.png",
+        "preview": "images/getv.png",
+        "paper_link": "https://ieeexplore.ieee.org/document/11358795",
+        "code_link": "https://xunchn.github.io/EgoCross/",
+        "keywords": "Egocentric Vision, Cross-modal Task Verification, Hypergraph Learning"
+      },
+      {
+        "id": "etc",
+        "title": "Egocentric Online Action Segmentation via Evidential Temporal Contextualization",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Zhangye Han"
+          },
+          {
+            "name": "Zheng Wang"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE Transactions on Multimedia",
+        "venue_short": "TMM 2026",
+        "thumb": "images/tea.gif",
+        "preview": "images/419c95d5-5a42-4abb-86a5-8eb6c949b8f9.png",
+        "paper_link": "https://ieeexplore.ieee.org/document/11489507/",
+        "code_link": "https://github.com/XunCHN/ETC",
+        "keywords": "Egocentric Vision; Temporal Action Segmentation; Streaming Video Understanding"
+      },
+      {
+        "id": "art",
+        "title": "Zero-Shot Video Moment Retrieval with Angular Reconstructive Text Embeddings",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Zailei Zhou"
+          },
+          {
+            "name": "Yang Yang"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE Transactions on Multimedia",
+        "venue_short": "TMM 2024",
+        "thumb": "images/art.png",
+        "preview": "images/art.png",
+        "paper_link": "https://ieeexplore.ieee.org/abstract/document/10605104",
+        "code_link": "https://github.com/CFM-MSG/Code_ART",
+        "keywords": "Video Content Understanding; Weakly-Supervised Learning; CLIP"
+      },
+      {
+        "id": "sdn",
+        "title": "SDN: Semantic Decoupling Network for Temporal Language Grounding",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Jingran Zhang"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Zuo Cao"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE Transactions on Neural Networks and Learning Systems",
+        "venue_short": "TNNLS 2022",
+        "thumb": "images/sdn.png",
+        "preview": "images/sdn.png",
+        "paper_link": "https://ieeexplore.ieee.org/abstract/document/9925990",
+        "code_link": "https://github.com/CFM-MSG/Code_SDN",
+        "keywords": "Video Content Understanding; Vision-Language; Multimodal Learning"
+      }
+    ],
+    "conferences": [
+      {
+        "id": "cpsc",
+        "title": "Multimodal Learning on Low-Quality Data with Conformal Predictive Self-Calibration",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Yufan Gu"
+          },
+          {
+            "name": "Disen Hu"
+          },
+          {
+            "name": "Yuqing Hou"
+          },
+          {
+            "name": "Yazhou Yao"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Heng Tao Shen"
+          },
+          {
+            "name": "Xing Xu"
+          }
+        ],
+        "venue_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "venue_short": "CVPR 2026",
+        "thumb": "images/cpsc_thumb.png",
+        "preview": "images/cpsc.png",
+        "paper_link": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Multimodal_Learning_on_Low-Quality_Data_with_Conformal_Predictive_Self-Calibration_CVPR_2026_paper.html",
+        "code_link": "https://github.com/XunCHN/CPSC",
+        "keywords": "Multimodal Learning, Low-quality Multimodal Data, Conformal Prediction"
+      },
+      {
+        "id": "hovq",
+        "title": "Hyper-Opinion Vagueness Quantification for Robust Multimodal Learning",
+        "authors": [
+          {
+            "name": "Disen Hu"
+          },
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xiaofeng Cao"
+          },
+          {
+            "name": "Zheng Wang"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Heng Tao Shen"
+          },
+          {
+            "name": "Xing Xu"
+          }
+        ],
+        "venue_full": "AAAI Conference on Artificial Intelligence",
+        "venue_short": "AAAI 2026",
+        "thumb": "images/hovq_thumb.png",
+        "preview": "images/hovq.png",
+        "paper_link": "https://dl.acm.org/doi/abs/10.1145/3746027.3755139",
+        "code_link": "https://github.com/ConstantineWayne/HOVQ",
+        "keywords": "Multimodal Learning, Robust Multimodal Learning, Hyper-Opinion Vagueness"
+      },
+      {
+        "id": "ggdm",
+        "title": "Geometric Gradient Divergence Modulation for Imbalanced Multimodal Learning",
+        "authors": [
+          {
+            "name": "Disen Hu"
+          },
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Zhe Sun"
+          },
+          {
+            "name": "Hao Yang"
+          },
+          {
+            "name": "Chong Peng"
+          },
+          {
+            "name": "Peng Yan"
+          },
+          {
+            "name": "Heng Tao Shen"
+          },
+          {
+            "name": "Xing Xu"
+          }
+        ],
+        "venue_full": "ACM International Conference on Multimedia",
+        "venue_short": "ACM MM 2025",
+        "thumb": "images/ggdm_thumb.png",
+        "preview": "images/ggdm.png",
+        "paper_link": "https://dl.acm.org/doi/abs/10.1145/3746027.3755139",
+        "code_link": "https://github.com/ConstantineWayne/GGDM",
+        "keywords": "Multimodal Learning, Imbalanced Multimodal Learning, Hyperspace Polyhedron"
+      },
+      {
+        "id": "phgc",
+        "title": "Procedural Heterogeneous Graph Completion for Natural Language Task Verification in Egocentric Videos",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Zhiyi Huang"
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "venue_short": "CVPR 2025",
+        "thumb": "images/CSV-NL-Correct.gif",
+        "preview": "images/phgc_2.png",
+        "paper_link": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_PHGC_Procedural_Heterogeneous_Graph_Completion_for_Natural_Language_Task_Verification_CVPR_2025_paper.html",
+        "code_link": "https://github.com/XunCHN/PHGC",
+        "keywords": "Natural Language-based Egocentric Task Verification; Heterogeneous Graph Completion; Multimodal Learning; Procedural Task Understanding"
+      },
+      {
+        "id": "caem",
+        "title": "Counterfactually Augmented Event Matching for De-biased Temporal Sentence Grounding",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Zhuoyuan Wei"
+          },
+          {
+            "name": "Shenshen Li"
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "ACM International Conference on Multimedia",
+        "venue_short": "ACM MM 2024",
+        "thumb": "images/caem_thumb.png",
+        "preview": "images/caem.jpg",
+        "paper_link": "https://openreview.net/pdf?id=NVzON5t3iz",
+        "code_link": "https://github.com/CFM-MSG/CAEM_Code",
+        "keywords": "Video Content Understanding, De-biased Video Grounding; Counterfactual Reasoning; Multimodal Learning"
+      },
+      {
+        "id": "eau",
+        "title": "Embracing Unimodal Aleatoric Uncertainty for Robust Multimodal Fusion",
+        "authors": [
+          {
+            "name": "Zixian Gao",
+            "equal": true
+          },
+          {
+            "name": "Xun Jiang",
+            "self": true,
+            "equal": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Yujie Li"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+        "venue_short": "CVPR 2024",
+        "thumb": "images/eau.png",
+        "preview": "images/eau.png",
+        "paper_link": "https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_Embracing_Unimodal_Aleatoric_Uncertainty_for_Robust_Multimodal_Fusion_CVPR_2024_paper.pdf",
+        "code_link": "https://github.com/CFM-MSG/Code_URMF",
+        "keywords": "Multimodal Learning; Model Robustness; Uncertainty in Deep Learning"
+      },
+      {
+        "id": "jsg",
+        "title": "Joint Searching and Grounding: Multi-Granularity Video Content Retrieval",
+        "authors": [
+          {
+            "name": "Zhiguo Chen",
+            "equal": true
+          },
+          {
+            "name": "Xun Jiang",
+            "self": true,
+            "equal": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Zuo Cao"
+          },
+          {
+            "name": "Yijun Mo"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "ACM International Conference on Multimedia",
+        "venue_short": "ACM MM 2023",
+        "thumb": "images/jsg.png",
+        "preview": "images/jsg.png",
+        "paper_link": "https://dl.acm.org/doi/abs/10.1145/3581783.3612349",
+        "code_link": "https://github.com/CFM-MSG/Code_JSG",
+        "keywords": "Multimedia Retrieval; Video Content Understanding; Multimodal Learning"
+      },
+      {
+        "id": "cfmr",
+        "title": "Faster Video Moment Retrieval with Point-Level Supervision",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Zailei Zhou"
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Yang Yang"
+          },
+          {
+            "name": "Guoqing Wang"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "ACM International Conference on Multimedia",
+        "venue_short": "ACM MM 2023",
+        "thumb": "images/cfmr.png",
+        "preview": "images/cfmr.png",
+        "paper_link": "https://dl.acm.org/doi/abs/10.1145/3581783.3612394",
+        "code_link": "https://github.com/CFM-MSG/Code_CFMR",
+        "keywords": "Video Content Retrieval; Point-level Supervision; Retrieval Efficiency"
+      },
+      {
+        "id": "dhhn",
+        "title": "DHHN: Dual Hierarchical Hybrid Network for Weakly-Supervised Audio-Visual Video Parsing",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Zhiguo Chen"
+          },
+          {
+            "name": "Jingran Zhang"
+          },
+          {
+            "name": "Jingkuan Song"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Huimin Lu"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "ACM International Conference on Multimedia",
+        "venue_short": "ACM MM 2022",
+        "thumb": "images/dhhn.png",
+        "preview": "images/dhhn.png",
+        "paper_link": "https://dl.acm.org/doi/abs/10.1145/3503161.3548309",
+        "code_link": "https://github.com/CFM-MSG/Code_DHHN",
+        "keywords": "Video Content Understanding; Action Localization; Audio-Visual Learning"
+      },
+      {
+        "id": "svptr",
+        "title": "Semi-Supervised Video Paragraph Grounding With Contrastive Encoder",
+        "authors": [
+          {
+            "name": "Xun Jiang",
+            "self": true
+          },
+          {
+            "name": "Xing Xu"
+          },
+          {
+            "name": "Jingran Zhang"
+          },
+          {
+            "name": "Fumin Shen"
+          },
+          {
+            "name": "Zuo Cao"
+          },
+          {
+            "name": "Heng Tao Shen"
+          }
+        ],
+        "venue_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "venue_short": "CVPR 2022",
+        "thumb": "images/svptr.png",
+        "preview": "images/svptr.png",
+        "paper_link": "https://ieeexplore.ieee.org/document/9879558",
+        "code_link": null,
+        "keywords": "Video Content Understanding, Semi-Supervised Learning; Multimodal Learning"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "MIPAL GitHub",
+      "desc": "Lab code repositories and released projects.",
+      "type": "Code",
+      "url": "https://github.com/SIG-MIPAL"
+    },
+    {
+      "title": "EgoCross Dataset",
+      "desc": "Benchmarks for Generalizable Egocentric Task Verification.",
+      "type": "Dataset",
+      "url": "https://drive.google.com/file/d/1hzYMpzEB_Ns8TlbZLPCseqF4EIl3Fr-f/view?usp=drive_link"
+    }
+  ],
+  "contact": {
+    "pi_name": "",
+    "pi_email": "xun_jiang@tongji.edu.com",
+    "address": [
+      "Spatial Intelligence Group (SIG)",
+      "Tongji University",
+      "Shanghai, China"
+    ],
+    "email": "",
+    "map_src": "",
+    "links": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Xun Jiang's Homepage",
+    "description": "Xun Jiang--Assistant Professor at Tongji University. Research on multimodal learning, egocentric vision, spatial intelligence, and VLM/LLM reasoning.",
+    "keywords": "",
+    "favicon": "images/favicon.ico",
+    "last_updated": "July, 2026"
+  },
+  "profile": {
+    "name": "Xun Jiang",
+    "photo": "images/xun_jiang.png",
+    "tagline": "",
+    "bio": [
+      "I am an Assistant Professor in the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG) </a>, Tongji University. Before that, I earned my Ph.D. in the Successive Postgraduate and Doctoral Program at the <a href=\"http://cfm.uestc.edu.cn\">CFM lab</a> of the University of Electronic Science and Technology of China (UESTC), supervised by <a href=\"https://cfm.uestc.edu.cn/~shenht/\">Prof. Heng Tao Shen</a>, co-supervised by <a href=\"https://cfm.uestc.edu.cn/~fshen/\">Prof. Fumin Shen</a> and <a href=\"https://interxuxing.github.io/\">Prof. Xing Xu</a>. I also spent a great time in <a href=\"https://mreallab.github.io/\">MReal Lab</a> at Nanyang Technological University under the supervision of <a href=\"https://personal.ntu.edu.sg/hanwangzhang/\">Prof. Hanwang Zhang</a>.  ",
+      "In the past five years, I have published more than 20 papers on AI/Multimedia flagship conferences and ACM/IEEE transaction journals, including IEEE TPAMI, TIP, TMM, TNNLS, TCSVT, TFS, CVPR, ACM MM, AAAI, <em>etc.</em> I am also serving as a journal reviewer for IEEE TPAMI, TIP, TMM, TCSVT, ACM TOIS, TOMM, <em>etc.</em>, as well as a Program Committee member for CVPR, ICCV, ECCV, NeurIPS, ACM MM, AAAI, <em>etc.</em>",
+      "I'm working on multimodal learning, spatial intelligence (particularly from an egocentric view), VLM/LLM reasoning enhancement, and am also highly interested in embodied multimodal spatial perception and navigation. Currently, I am leading an interest group under SIG, namely Multimodal Intelligence & Physical Application Lab (MIPAL). Feel free to contact me for discussion and collaboration! \n\n",
+      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are welcome to join MIPAL and grow together with us!</span>"
+    ],
+    "email": "xun_jiang@tongji.edu.cn",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=oAjQIUEAAAAJ"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/XunCHN/"
+      }
+    ]
+  },
+  "member": {
+    "slug": "xun-jiang",
+    "type": "faculty"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "enabled": false
+    },
+    {
+      "id": "news",
+      "type": "text",
+      "title": "Teaching",
+      "enabled": true,
+      "items": [
+        ""
+      ]
+    },
+    {
+      "id": "sec-1783587111205",
+      "type": "text",
+      "title": "Projects",
+      "enabled": true,
+      "items": [
+        ""
+      ]
+    },
+    {
+      "id": "awards",
+      "type": "awards",
+      "title": "Awards",
+      "enabled": true
+    }
+  ],
+  "news": [],
+  "education": [
+    {
+      "logo": "images/ntu_icon.png",
+      "period": "Dec. 2024 – Dec. 2025",
+      "institution": "Nanyang Technological University (NTU), Singapore",
+      "details": [
+        "College of Computing and Data Science",
+        "Visiting Ph.D. in Computer Science and Technology",
+        {
+          "note": "Awarded CSC Scholarship"
+        }
+      ]
+    },
+    {
+      "logo": "images/uestc_icon.jpg",
+      "period": "Dec. 2020 – Present",
+      "institution": "University of Electronic Science and Technology of China (UESTC), China",
+      "details": [
+        "School of Computer Science and Engineering",
+        "Ph.D. Degree in Computer Science and Technology",
+        "In Successive Postgraduate and Doctoral Program, Awarded Honor Graduates of Sichuan Province"
+      ]
+    },
+    {
+      "logo": "images/uestc_icon.jpg",
+      "period": "Sep. 2016 – Jun. 2020",
+      "institution": "University of Electronic Science and Technology of China (UESTC), China",
+      "details": [
+        "School of Software Engineering",
+        "Bachelor Degree in Software Engineering",
+        {
+          "note": "Awarded Honor Graduates of UESTC"
+        }
+      ]
+    }
+  ],
+  "publications": {
+    "journals": [],
+    "conferences": []
+  },
+  "awards": []
+}
