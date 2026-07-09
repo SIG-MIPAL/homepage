@@ -727,6 +727,12 @@
       "desc": "Benchmarks for Generalizable Egocentric Task Verification.",
       "type": "Dataset",
       "url": "https://drive.google.com/file/d/1hzYMpzEB_Ns8TlbZLPCseqF4EIl3Fr-f/view?usp=drive_link"
+    },
+    {
+      "title": "Aircraft Noise Estimation",
+      "desc": "Assessing the Perceptual Impact of Low-Altitude Aircraft Noise in Cities",
+      "type": "Demo",
+      "url": "https://gbtflyovernoise.github.io/"
     }
   ],
   "contact": {
