@@ -12,9 +12,9 @@
     "affiliation": "Spatial Intelligence Group (SIG), Tongji University",
     "hero_image": "",
     "intro": [
-      "MIPAL (Multimodal Intelligence &amp; Physical Application Lab) is a research group within the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG)</a> at Tongji University, led by Prof. Xun Jiang.",
+      "MIPAL (Multimodal Intelligence &amp; Physical Application Lab) is a research group within the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG)</a> at Tongji University, led by Dr. Xun Jiang. Our team is also working closely with Koala URAN Ltd. towards real-world applications in spatial intelligence. ",
       "Our research spans multimodal learning, spatial intelligence (particularly from an egocentric view), and VLM/LLM reasoning enhancement. We are also highly interested in embodied multimodal spatial perception and navigation.",
-      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are welcome to join MIPAL and grow together with us!</span>"
+      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are highly welcome to join MIPAL and grow together with us!</span>"
     ],
     "highlights": [
       "Multimodal Learning",
@@ -73,10 +73,6 @@
     {
       "date": "2025/11",
       "text": "Two papers about multimodal learning and egocentric video understanding accepted by AAAI 2026! 🎉🎉 Congratulations to Disen and Chong!"
-    },
-    {
-      "date": "2025/08",
-      "text": "We won ACM MM 2025 Grand Challenge ERR@HRI 2.0! 🎉🎉 Our technical report has been accepted for publication in proceedings."
     }
   ],
   "people": {
@@ -92,13 +88,13 @@
         "page": "xun-jiang"
       },
       {
-        "name": "Qichen Tan",
+        "name": "Jingran Zhang",
         "role": "Guest Researcher",
-        "photo": "images/41b59dc1ae1cc9436ff23a473a7a80a9.jpeg",
-        "homepage": "https://tylertam98.github.io/",
-        "scholar": "https://scholar.google.com/citations?user=Doo7G5UAAAAJ&hl=zh-CN",
+        "photo": "",
+        "homepage": "",
+        "scholar": "",
         "github": "",
-        "email": "qctan@suda.edu.cn",
+        "email": "",
         "note": "",
         "page": ""
       }
@@ -184,19 +180,7 @@
         "page": ""
       }
     ],
-    "visiting": [
-      {
-        "name": "Disen Hu",
-        "role": "PhD Student (Visiting)",
-        "photo": "",
-        "homepage": "",
-        "scholar": "",
-        "github": "",
-        "email": "",
-        "note": "",
-        "page": ""
-      }
-    ]
+    "visiting": []
   },
   "publications": {
     "journals": [
