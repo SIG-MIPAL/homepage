@@ -266,6 +266,17 @@
       ],
       "visiting": [
         {
+          "name": "Qichen Tan",
+          "role": "Visiting Scholar",
+          "photo": "images/people-qichen-tan-2.jpg",
+          "homepage": "https://tylertam98.github.io/",
+          "scholar": "https://scholar.google.com/citations?user=Doo7G5UAAAAJ&hl=zh-CN",
+          "github": "",
+          "email": "qctan@suda.edu.cn",
+          "note": "",
+          "page": ""
+        },
+        {
           "name": "Shenshen Li",
           "role": "Visiting Ph.D Student",
           "photo": "",
