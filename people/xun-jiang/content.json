@@ -43,7 +43,7 @@
       "id": "news",
       "type": "text",
       "title": "Teaching",
-      "enabled": true,
+      "enabled": false,
       "items": [
         ""
       ]
@@ -52,7 +52,7 @@
       "id": "sec-1783587111205",
       "type": "text",
       "title": "Projects",
-      "enabled": true,
+      "enabled": false,
       "items": [
         ""
       ]
@@ -61,49 +61,91 @@
       "id": "awards",
       "type": "awards",
       "title": "Awards",
-      "enabled": true
+      "enabled": false
     }
   ],
-  "news": [],
-  "education": [
-    {
-      "logo": "images/ntu_icon.png",
-      "period": "Dec. 2024 – Dec. 2025",
-      "institution": "Nanyang Technological University (NTU), Singapore",
-      "details": [
-        "College of Computing and Data Science",
-        "Visiting Ph.D. in Computer Science and Technology",
-        {
-          "note": "Awarded CSC Scholarship"
-        }
-      ]
-    },
-    {
-      "logo": "images/uestc_icon.jpg",
-      "period": "Dec. 2020 – Present",
-      "institution": "University of Electronic Science and Technology of China (UESTC), China",
-      "details": [
-        "School of Computer Science and Engineering",
-        "Ph.D. Degree in Computer Science and Technology",
-        "In Successive Postgraduate and Doctoral Program, Awarded Honor Graduates of Sichuan Province"
-      ]
-    },
-    {
-      "logo": "images/uestc_icon.jpg",
-      "period": "Sep. 2016 – Jun. 2020",
-      "institution": "University of Electronic Science and Technology of China (UESTC), China",
-      "details": [
-        "School of Software Engineering",
-        "Bachelor Degree in Software Engineering",
-        {
-          "note": "Awarded Honor Graduates of UESTC"
-        }
-      ]
+  "news": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "News"
+      }
+    ],
+    "items": {
+      "main": []
     }
-  ],
-  "publications": {
-    "journals": [],
-    "conferences": []
   },
-  "awards": []
+  "education": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Education"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/ntu_icon.png",
+          "period": "Dec. 2024 – Dec. 2025",
+          "institution": "Nanyang Technological University (NTU), Singapore",
+          "details": [
+            "College of Computing and Data Science",
+            "Visiting Ph.D. in Computer Science and Technology",
+            {
+              "note": "Awarded CSC Scholarship"
+            }
+          ]
+        },
+        {
+          "logo": "images/uestc_icon.jpg",
+          "period": "Dec. 2020 – Present",
+          "institution": "University of Electronic Science and Technology of China (UESTC), China",
+          "details": [
+            "School of Computer Science and Engineering",
+            "Ph.D. Degree in Computer Science and Technology",
+            "In Successive Postgraduate and Doctoral Program, Awarded Honor Graduates of Sichuan Province"
+          ]
+        },
+        {
+          "logo": "images/uestc_icon.jpg",
+          "period": "Sep. 2016 – Jun. 2020",
+          "institution": "University of Electronic Science and Technology of China (UESTC), China",
+          "details": [
+            "School of Software Engineering",
+            "Bachelor Degree in Software Engineering",
+            {
+              "note": "Awarded Honor Graduates of UESTC"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "publications": {
+    "groups": [
+      {
+        "key": "journals",
+        "label": "Selected Journal Papers"
+      },
+      {
+        "key": "conferences",
+        "label": "Selected Conference Papers"
+      }
+    ],
+    "items": {
+      "journals": [],
+      "conferences": []
+    }
+  },
+  "awards": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Awards"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  }
 }

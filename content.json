@@ -12,9 +12,9 @@
     "affiliation": "Spatial Intelligence Group (SIG), Tongji University",
     "hero_image": "",
     "intro": [
-      "MIPAL (Multimodal Intelligence &amp; Physical Application Lab) is a research group within the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG)</a> at Tongji University, led by Dr. Xun Jiang. Our team is also working closely with Koala URAN Ltd. towards real-world applications in spatial intelligence. ",
+      "MIPAL (Multimodal Intelligence &amp; Physical Application Lab) is a research group within the <a href=\"https://sig.tongji.edu.cn/\">Spatial Intelligence Group (SIG)</a> at Tongji University, led by Dr. Xun Jiang. Our team is also working closely with <a href=\"https://www.kaolayouran.cn/\">Koala URAN Ltd.</a> towards real-world applications in spatial intelligence. ",
       "Our research spans multimodal learning, spatial intelligence (particularly from an egocentric view), and VLM/LLM reasoning enhancement. We are also highly interested in embodied multimodal spatial perception and navigation.",
-      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are highly welcome to join MIPAL and grow together with us!</span>"
+      "<span style=\"color: red;\">We are currently recruiting Master's and Doctoral students for enrollment in 2027. If you are a diligent student who enjoys multimodal research and practical robotic applications, you are highly welcome to join MIPAL and grow together with us! </span>"
     ],
     "highlights": [
       "Multimodal Learning",
@@ -108,7 +108,7 @@
       "faculty": [
         {
           "name": "Xun Jiang",
-          "role": "Team Leader",
+          "role": "Tongji University",
           "photo": "images/xun_jiang.png",
           "homepage": "",
           "scholar": "https://scholar.google.com/citations?user=oAjQIUEAAAAJ",
@@ -118,11 +118,22 @@
         },
         {
           "name": "Jingran Zhang",
-          "role": "Guest Researcher",
+          "role": "Koala URAN Ltd. ",
           "photo": "",
           "homepage": "",
           "scholar": "",
           "github": "https://github.com/zhang-jr",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
+        {
+          "name": "Lei Wang",
+          "role": "Tongyi Lab",
+          "photo": "images/people-lei-wang.jpg",
+          "homepage": "https://demoleiwang.github.io/HomePage",
+          "scholar": "https://scholar.google.com/citations?user=VidA02oAAAAJ&hl=zh-CN",
+          "github": "https://github.com/demoleiwang",
           "email": "",
           "note": "",
           "page": ""
@@ -153,6 +164,50 @@
         }
       ],
       "master": [
+        {
+          "name": "Chong Liu",
+          "role": "Master Student (2024-)",
+          "photo": "",
+          "homepage": "",
+          "scholar": "",
+          "github": "",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
+        {
+          "name": "Shuangle Li",
+          "role": "Master Student (2024-)",
+          "photo": "",
+          "homepage": "",
+          "scholar": "",
+          "github": "",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
+        {
+          "name": "Pengqi Chen",
+          "role": "Master Student (2024-)",
+          "photo": "",
+          "homepage": "",
+          "scholar": "",
+          "github": "",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
+        {
+          "name": "Kaiyuan Deng",
+          "role": "Master Student (2024-)",
+          "photo": "",
+          "homepage": "",
+          "scholar": "",
+          "github": "",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
         {
           "name": "Yufan Gu",
           "role": "Master Student (2025-)",
@@ -245,6 +300,17 @@
         },
         {
           "name": "Zeyang Liu",
+          "role": "Undergraduate",
+          "photo": "",
+          "homepage": "",
+          "scholar": "",
+          "github": "",
+          "email": "",
+          "note": "",
+          "page": ""
+        },
+        {
+          "name": "Kaiwen Tan",
           "role": "Undergraduate",
           "photo": "",
           "homepage": "",

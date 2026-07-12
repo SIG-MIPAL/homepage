@@ -182,7 +182,6 @@ carry their content inline in `section.items`. Publication author flags: `self` 
   response reports `removedImages` count.
 - `google6e027989c2c8311c.html` (repo root) is a Google Search Console verification file;
   keep its exact name.
-- The PI's page lives at `people/xun-jiang/` (migrated from the old `personal/`). The original
-  personal page was based on Lei Wang's template (credited in its footer).
+- The PI's page lives at `people/xun-jiang/` (migrated from the old `personal/`). 
 - Legacy/unused files from the old template have been removed (`w3.css`, `font-awesome.min.css`,
   `jquery*.js`, `stylesheet.css`, `a2_summary_save_dict_val-line_test_data_list_f80_disentangle.json`).
