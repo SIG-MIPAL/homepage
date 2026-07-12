@@ -27,6 +27,7 @@ Homepage_v2/  (ONE repo, master -> GitHub Pages root)
 ├── .nojekyll  .gitignore  CLAUDE.md  google6e027989c2c8311c.html
 └── admin/            # LOCAL editing backend (gitignored - never pushed; OneDrive backs it up)
     ├── sites.js      # site registry: mipal->repo root + dynamic scan of people/<slug>/
+    ├── normalize.js  # converts legacy section shapes -> unified {groups, items}; collectImageRefs
     ├── render.js     # personal renderer (section-driven); exports renderHTML, esc, renderAuthors, renderPub
     ├── lab-render.js # MIPAL renderer; reuses esc + renderPub from render.js
     ├── build.js      # node build.js [key]  -> writes <siteRoot>/index.html (default = mipal)
@@ -46,6 +47,16 @@ for the live preview (so preview assets resolve through the server's per-site st
 `render.js` is **section-driven**: it renders `content.sections` (type pool + enabled/title/order)
 plus the always-on profile block; empty sections are hidden. `lab-render.js` reuses `esc` and
 `renderPub` from `render.js`, so publications render identically on every page.
+
+**Grouped sections (unified `{groups, items}` shape):** `people`, `news`, `publications`,
+`resources`, `education`, `awards` are each `{groups: [{key,label}], items: {<key>: [...]}}`.
+Group labels/keys/order are all editable in the admin (rename, add, delete, reorder); a group
+subhead renders on the page only when 2+ groups are non-empty. `admin/normalize.js`
+(`normalizeContent`) converts legacy shapes (flat array; old `{journals,conferences}`; old
+`{faculty,phd,...}` people; or the intermediate top-level `people_groups`) into this unified
+shape. The server normalizes on `GET /api/content` (so the browser editor always sees unified
+content) and on `PUT` (idempotent); the renderers normalize on render too, so legacy files on
+disk still bake correctly and migrate to unified on the first Save.
 
 **Site registry** (`admin/sites.js`): `mipal` -> `Homepage_v2/` (default, static); each
 `people/<slug>/` with a `content.json` is discovered dynamically as a personal site
@@ -122,25 +133,26 @@ pull content from their own tab. News, Publications, and Meta editors are shared
 - `home` - `lab_name` (short, in nav), `full_name`, `affiliation`, `hero_image?`,
   `intro[]` (HTML allowed), `highlights[]`, `cta_links[]` (`{label,url}`)
 - `nav` - section ids (home, news, people, publications, resources, contact)
-- `news[]` - `{date, text}` (shared shape)
-- `people` - `{faculty, phd, master, visiting}`, each a list of members:
+- `news` - grouped (`{groups, items}`); each item is `{date, text}` (HTML allowed)
+- `people` - grouped; default groups are faculty/phd/master/visiting, each a list of members
   `{name, role, photo, homepage?, page?, scholar?, github?, email?, note?}`. Empty groups are
   hidden. (`faculty` = Faculty & Guest Faculty; the `role` field distinguishes them.)
   `homepage` = external URL (wins for the "Web" link); `page` = local `people/<slug>` slug
   (used when `homepage` is empty). The PI's record has `page: "xun-jiang"`.
-- `publications` - `{journals, conferences}` (identical to the personal schema)
-- `resources[]` - `{title, desc, type, url}` where type ∈ Dataset/Code/Demo/Course/Other
+- `publications` - grouped; default groups are journals/conferences (identical item shape to
+  the personal schema)
+- `resources` - grouped; each item is `{title, desc, type, url}` where type ∈ Dataset/Code/Demo/Course/Other
 - `contact` - `pi_name`, `pi_email`, `address[]`, `email`, `map_src?` (Google Maps embed src),
   `links[]`
 
 Member page content.json schema: `meta`, `profile` (name/photo/tagline/bio[]/email/links[]),
-`member` (`{slug, type}` where type ∈ faculty/phd/master/visiting), `sections[]`
-(`{id, type, title, enabled}` - type ∈ news/education/publications/awards/text/links; order =
-display order; empty sections are hidden), plus the content arrays
-`news[]`, `education[]` (logo/period/institution/details[] where detail is a string or `{note}`),
-`publications.{journals,conferences}[]`, `awards[]`. `text`/`links` sections carry their content
-inline in `section.items`. Publication author flags: `self` (bold), `equal` (`*`),
-`corresponding` (`#`); a trailing note is added automatically.
+`member` (`{slug, type}` where type is the people-group key, default faculty/phd/master/visiting),
+`sections[]` (`{id, type, title, enabled}` - type ∈ news/education/publications/awards/text/links;
+order = display order; empty sections are hidden), plus the grouped sections
+`news`, `education` (item: logo/period/institution/details[] where detail is a string or `{note}`),
+`publications`, `awards` - all in the unified `{groups, items}` shape. `text`/`links` sections
+carry their content inline in `section.items`. Publication author flags: `self` (bold),
+`equal` (`*`), `corresponding` (`#`); a trailing note is added automatically.
 
 ## Gotchas
 
@@ -159,6 +171,15 @@ inline in `section.items`. Publication author flags: `self` (bold), `equal` (`*`
   against the root `images/` - they are independent. New member pages start with an empty
   `images/`; upload via the image picker while editing that page. A member's MIPAL People card
   photo starts blank (initial-letter placeholder) - set it separately on the MIPAL People tab.
+- **Image naming** (`POST /api/image`): the cropper forwards the edited field's `data-path`; if
+  the filename field is left blank the server derives a context name - `pub-<id>-thumb.png` /
+  `pub-<id>-preview.png`, `people-<name>.png`, `profile-<name>.png`, `edu-<institution>.png`,
+  `favicon.png`, `hero.png` (fallback `image-<stamp>.png`). A typed filename overrides. Files
+  are collision-numbered (`-2`, `-3`), never overwritten.
+- **Image cleanup on Save** (`PUT /api/content`): the server diffs image refs in the old vs new
+  content and deletes files that were referenced before but aren't now (an item/group was deleted
+  or an image field cleared). Staged-but-never-referenced uploads are NOT touched. The save
+  response reports `removedImages` count.
 - `google6e027989c2c8311c.html` (repo root) is a Google Search Console verification file;
   keep its exact name.
 - The PI's page lives at `people/xun-jiang/` (migrated from the old `personal/`). The original
