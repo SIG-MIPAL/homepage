@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Jiankang Zhao's Homepage",
+    "description": "同济大学计算机研究生",
+    "keywords": "",
+    "favicon": "",
+    "last_updated": ""
+  },
+  "profile": {
+    "name": "Jiankang Zhao",
+    "photo": "images/github.jpg",
+    "tagline": "同济大学计算机研究生",
+    "bio": [
+      "我目前是一名同济大学的计算机专业研究生，兴趣是羽毛球、跑步、唱歌，欢迎志同道合的朋友一起来交流"
+    ],
+    "email": "frank.zhaojk@gmail.com",
+    "links": []
+  },
+  "member": {
+    "slug": "jiankang-zhao",
+    "type": "master"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "enabled": true
+    },
+    {
+      "id": "publications",
+      "type": "publications",
+      "title": "Publications",
+      "enabled": true
+    },
+    {
+      "id": "awards",
+      "type": "awards",
+      "title": "Awards",
+      "enabled": true
+    },
+    {
+      "id": "news",
+      "type": "news",
+      "title": "News",
+      "enabled": true
+    }
+  ],
+  "news": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "News"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  },
+  "education": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Education"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  },
+  "publications": {
+    "groups": [
+      {
+        "key": "journals",
+        "label": "Journal Papers"
+      },
+      {
+        "key": "conferences",
+        "label": "Conference Papers"
+      }
+    ],
+    "items": {
+      "journals": [],
+      "conferences": []
+    }
+  },
+  "awards": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Awards"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  }
+}
