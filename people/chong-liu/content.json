@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Chong Liu's Homepage",
+    "description": "Master Student at the University of Electronic Science and Technology of China",
+    "keywords": "",
+    "favicon": "",
+    "last_updated": ""
+  },
+  "profile": {
+    "name": "Chong Liu",
+    "photo": "images/1-12.jpg",
+    "tagline": "Master Students at University of Electronic Science and Technology of China",
+    "bio": [],
+    "email": "mmuxiangwen@163.com",
+    "links": []
+  },
+  "member": {
+    "slug": "chong-liu",
+    "type": "master"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "enabled": true
+    },
+    {
+      "id": "publications",
+      "type": "publications",
+      "title": "Publications",
+      "enabled": true
+    },
+    {
+      "id": "awards",
+      "type": "awards",
+      "title": "Awards",
+      "enabled": true
+    },
+    {
+      "id": "news",
+      "type": "news",
+      "title": "News",
+      "enabled": true
+    }
+  ],
+  "news": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "News"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  },
+  "education": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Education"
+      },
+      {
+        "key": "internship",
+        "label": "Internship"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/edu-university-of-electronic-science-and-technology-of-china.jpg",
+          "period": "2020-2024",
+          "institution": "University of Electronic Science and Technology of China",
+          "details": [
+            "Bachelor's Degree"
+          ]
+        },
+        {
+          "logo": "images/edu-university-of-electronic-science-and-technology-of-china.jpg",
+          "period": "2024-Present",
+          "institution": "University of Electronic Science and Technology of China",
+          "details": [
+            "Master's Degree"
+          ]
+        }
+      ],
+      "internship": [
+        {
+          "logo": "images/edu-antgroup.jpg",
+          "period": "2025.04-Present",
+          "institution": "AntGroup",
+          "details": [
+            "大模型算法实习生"
+          ]
+        }
+      ]
+    }
+  },
+  "publications": {
+    "groups": [
+      {
+        "key": "journals",
+        "label": "Journal Papers"
+      },
+      {
+        "key": "conferences",
+        "label": "Conference Papers"
+      }
+    ],
+    "items": {
+      "journals": [
+        {
+          "id": "PCML",
+          "title": "Egocentric Online Action Segmentation via Parametric Context Memory Learning",
+          "authors": [
+            {
+              "name": "Xun Jiang"
+            },
+            {
+              "name": "Xing Xu",
+              "corresponding": true
+            },
+            {
+              "name": "Chong Liu",
+              "self": true
+            },
+            {
+              "name": "Zheng Wang"
+            },
+            {
+              "name": "Jingkuan Song"
+            },
+            {
+              "name": "Zhe Sun"
+            },
+            {
+              "name": "Andrzej Cichocki"
+            },
+            {
+              "name": "Heng Tao Shen"
+            }
+          ],
+          "venue_full": "IEEE Transactions on Image Processing",
+          "venue_short": "TIP 2026, CCF-A",
+          "thumb": "images/pub-pcml-thumb.png",
+          "preview": "images/pub-pcml-thumb.png",
+          "paper_link": "",
+          "code_link": "https://github.com/XunCHN/PCML",
+          "keywords": ""
+        }
+      ],
+      "conferences": [
+        {
+          "id": "PEL",
+          "title": "De-biased Natural Language Egocentric Task Verification via Prototypical Evidence Learning",
+          "authors": [
+            {
+              "name": "Chong Liu",
+              "self": true
+            },
+            {
+              "name": "Xun Jiang"
+            },
+            {
+              "name": "Fumin Shen",
+              "corresponding": true
+            },
+            {
+              "name": "Lei Zhu"
+            },
+            {
+              "name": "Jingkuan Song"
+            },
+            {
+              "name": "Heng Tao Shen"
+            },
+            {
+              "name": "Xing Xu"
+            }
+          ],
+          "venue_full": "AAAI Conference on Artificial Intelligence",
+          "venue_short": "AAAI 2026, CCF-A",
+          "thumb": "images/pub-pel-thumb.png",
+          "preview": "images/pub-pel-preview.png",
+          "paper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/37645",
+          "code_link": "",
+          "keywords": ""
+        }
+      ]
+    }
+  },
+  "awards": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Awards"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "date": "2025",
+          "text": "ACM·MM ERR@HRI·2.0 人机交互错误检测大赛 冠军"
+        },
+        {
+          "date": "2025",
+          "text": "研究生学业奖学金一等奖"
+        }
+      ]
+    }
+  }
+}
