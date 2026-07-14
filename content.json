@@ -119,8 +119,8 @@
         {
           "name": "Jingran Zhang",
           "role": "Koala URAN Ltd. ",
-          "photo": "",
-          "homepage": "",
+          "photo": "images/jrzhang-2.jpg",
+          "homepage": "https://zhang-jr.github.io/",
           "scholar": "",
           "github": "https://github.com/zhang-jr",
           "email": "",
@@ -141,7 +141,7 @@
       ],
       "phd": [
         {
-          "name": "Qing Li",
+          "name": "Qin Li",
           "role": "Ph.D Student (2026-)",
           "photo": "",
           "homepage": "",
