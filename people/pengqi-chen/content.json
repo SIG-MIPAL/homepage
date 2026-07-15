@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Pengqi Chen's Homepage",
+    "description": "Master Students at University of Electronic Science and Technology of China",
+    "keywords": "",
+    "favicon": "",
+    "last_updated": ""
+  },
+  "profile": {
+    "name": "Pengqi Chen",
+    "photo": "images/20260715214441-15-9.jpg",
+    "tagline": "Master Students at University of Electronic Science and Technology of China",
+    "bio": [],
+    "email": "chenpq0805@gmail.com",
+    "links": []
+  },
+  "member": {
+    "slug": "pengqi-chen",
+    "type": "master"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "enabled": true
+    },
+    {
+      "id": "publications",
+      "type": "publications",
+      "title": "Publications",
+      "enabled": true
+    },
+    {
+      "id": "awards",
+      "type": "awards",
+      "title": "Awards",
+      "enabled": true
+    },
+    {
+      "id": "news",
+      "type": "news",
+      "title": "News",
+      "enabled": true
+    }
+  ],
+  "news": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "News"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  },
+  "education": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Education"
+      },
+      {
+        "key": "internship",
+        "label": "Internship"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/edu-university-of-electronic-science-and-technology-of-china.jpg",
+          "period": "2024-Present",
+          "institution": "University of Electronic Science and Technology of China",
+          "details": [
+            "Master's Degree"
+          ]
+        },
+        {
+          "logo": "images/edu-university-of-electronic-science-and-technology-of-china.jpg",
+          "period": "2020-2024",
+          "institution": "University of Electronic Science and Technology of China",
+          "details": [
+            "Bachelor's Degree"
+          ]
+        }
+      ],
+      "internship": [
+        {
+          "logo": "images/meituan.png",
+          "period": "",
+          "institution": "",
+          "details": []
+        }
+      ]
+    }
+  },
+  "publications": {
+    "groups": [
+      {
+        "key": "journals",
+        "label": "Journal Papers"
+      },
+      {
+        "key": "conferences",
+        "label": "Conference Papers"
+      }
+    ],
+    "items": {
+      "journals": [],
+      "conferences": [
+        {
+          "id": "cpq1",
+          "title": "Robust 4D Action Segmentation in Corrupted Point Cloud Videos",
+          "authors": [
+            {
+              "name": "Pengqi Chen",
+              "self": true
+            },
+            {
+              "name": "Xun Jiang"
+            },
+            {
+              "name": "Yuqing Hou"
+            },
+            {
+              "name": "Fumin Shen"
+            },
+            {
+              "name": "Xing Xu",
+              "corresponding": true
+            }
+          ],
+          "venue_full": "IEEE International Conference on Multimedia& Expo",
+          "venue_short": "ICME 2026",
+          "thumb": "images/intro.png",
+          "preview": "images/intro.png",
+          "paper_link": "",
+          "code_link": "https://github.com/car1ry/SPE",
+          "keywords": ""
+        }
+      ]
+    }
+  },
+  "awards": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Awards"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "date": "2025-2026",
+          "text": "研究生学业奖学金一等奖"
+        },
+        {
+          "date": "2024-2025",
+          "text": "研究生学业奖学金一等奖"
+        }
+      ]
+    }
+  }
+}
