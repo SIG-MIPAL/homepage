@@ -164,6 +164,7 @@ main { display: block; }
 }
 .edu-inst { font-weight: 700; font-size: 1.02rem; }
 .edu-period { color: var(--muted); font-size: 0.9rem; margin: 2px 0 6px; }
+.exp-role { color: var(--accent-dark, #1d4ed8); font-weight: 600; font-size: 0.92rem; }
 .edu-details { margin: 0; padding-left: 18px; }
 .edu-details li { margin: 2px 0; color: #374151; }
 .edu-details li.note { color: var(--muted); font-style: italic; list-style: none; margin-left: -18px; }

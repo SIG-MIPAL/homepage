@@ -73,11 +73,22 @@ main { display: block; }
 .section.alt > * { max-width: var(--maxw); margin-left: auto; margin-right: auto; }
 
 /* ---------- Hero / Home ---------- */
-.hero { text-align: center; padding-top: 72px; }
+.hero { position: relative; text-align: center; padding-top: 72px; overflow: hidden; }
+.hero-content { position: relative; z-index: 1; }
 .hero-image { width: 100%; max-width: 720px; border-radius: 12px; margin-bottom: 20px; }
 .hero h1 { font-size: 2.6rem; margin: 0 0 0.25rem; letter-spacing: -0.02em; }
 .lab-fullname { font-size: 1.15rem; color: var(--text); font-weight: 600; margin: 0 0 0.25rem; }
 .lab-affil { color: var(--muted); margin: 0 0 1.5rem; }
+/* Decorative lab logo: a faint, shape-clipped watermark behind the hero text. */
+.hero-logo { position: absolute; z-index: 0; pointer-events: none; }
+.hero-logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.hero-logo.pos-right { right: 6%; top: 50%; transform: translateY(-50%); }
+.hero-logo.pos-left { left: 6%; top: 50%; transform: translateY(-50%); }
+.hero-logo.pos-center { left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.hero-logo.shape-circle { border-radius: 50%; overflow: hidden; }
+.hero-logo.shape-rounded { border-radius: 20%; overflow: hidden; }
+.hero-logo.shape-square { overflow: hidden; }
+.hero-logo.shape-triangle { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
 .intro { text-align: justify; max-width: 720px; margin: 0 auto 1rem; color: #374151; }
 .highlights {
   list-style: none; margin: 1rem auto; padding: 0;
@@ -215,6 +226,7 @@ main { display: block; }
   .section { padding: 44px 20px; }
   .hero { padding-top: 48px; }
   .hero h1 { font-size: 1.9rem; }
+  .hero-logo { display: none; }
 
   .pub { flex-direction: column; gap: 14px; }
   .pub-thumb { flex: none; width: 100%; height: 150px; }

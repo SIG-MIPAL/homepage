@@ -26,6 +26,13 @@
       "enabled": true
     },
     {
+      "id": "sec-1784141790123",
+      "type": "experience",
+      "title": "Experience",
+      "enabled": true,
+      "items": []
+    },
+    {
       "id": "publications",
       "type": "publications",
       "title": "Publications",
@@ -60,10 +67,6 @@
       {
         "key": "main",
         "label": "Education"
-      },
-      {
-        "key": "internship",
-        "label": "Internship"
       }
     ],
     "items": {
@@ -82,16 +85,6 @@
           "institution": "University of Electronic Science and Technology of China",
           "details": [
             "Master's Degree"
-          ]
-        }
-      ],
-      "internship": [
-        {
-          "logo": "images/edu-antgroup.jpg",
-          "period": "2025.04-Present",
-          "institution": "AntGroup",
-          "details": [
-            "大模型算法实习生"
           ]
         }
       ]
@@ -206,6 +199,25 @@
         {
           "date": "2025",
           "text": "研究生学业奖学金一等奖"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Experience "
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/edu-antgroup.jpg",
+          "period": "2024-Present",
+          "organization": "AntGroup",
+          "role": "大模型算法实习生",
+          "details": []
         }
       ]
     }
