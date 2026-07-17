@@ -35,8 +35,8 @@
     "logo_opacity": "17",
     "logo": "images/MIPAL.png",
     "logo_position": "center",
-    "logo_size": "320",
-    "logo_shape": "rounded"
+    "logo_size": "300",
+    "logo_shape": "triangle"
   },
   "nav": [
     "home",
