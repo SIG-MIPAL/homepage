@@ -26,6 +26,13 @@
       "enabled": true
     },
     {
+      "id": "news",
+      "type": "experience",
+      "title": "Experience",
+      "enabled": true,
+      "items": []
+    },
+    {
       "id": "publications",
       "type": "publications",
       "title": "Publications",
@@ -35,12 +42,6 @@
       "id": "awards",
       "type": "awards",
       "title": "Awards",
-      "enabled": true
-    },
-    {
-      "id": "news",
-      "type": "news",
-      "title": "News",
       "enabled": true
     }
   ],
@@ -60,10 +61,6 @@
       {
         "key": "main",
         "label": "Education"
-      },
-      {
-        "key": "internship",
-        "label": "Internship"
       }
     ],
     "items": {
@@ -83,14 +80,6 @@
           "details": [
             "Bachelor's Degree"
           ]
-        }
-      ],
-      "internship": [
-        {
-          "logo": "images/meituan.png",
-          "period": "",
-          "institution": "",
-          "details": []
         }
       ]
     }
@@ -158,6 +147,25 @@
         {
           "date": "2024-2025",
           "text": "研究生学业奖学金一等奖"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Experience"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/meituan.png",
+          "period": "2026.03-Present",
+          "organization": "Meituan",
+          "role": "算法实习生",
+          "details": []
         }
       ]
     }
