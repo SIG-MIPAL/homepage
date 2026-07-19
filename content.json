@@ -40,16 +40,47 @@
     "logo_x": 50,
     "logo_y": 25
   },
-  "nav": [
-    "home",
-    "news",
-    "people",
-    "publications",
-    "achievements",
-    "resources",
-    "recruitment",
-    "gallery",
-    "contact"
+  "sections": [
+    {
+      "id": "news",
+      "title": "News",
+      "enabled": true
+    },
+    {
+      "id": "people",
+      "title": "People",
+      "enabled": true
+    },
+    {
+      "id": "achievements",
+      "title": "Applications",
+      "enabled": true
+    },
+    {
+      "id": "publications",
+      "title": "Publications",
+      "enabled": true
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "enabled": true
+    },
+    {
+      "id": "recruitment",
+      "title": "Recruitment",
+      "enabled": true
+    },
+    {
+      "id": "gallery",
+      "title": "Gallery",
+      "enabled": true
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "enabled": true
+    }
   ],
   "news": {
     "groups": [
@@ -910,7 +941,7 @@
         {
           "title": "Academic Master‘s Student",
           "type": "Enrollment in 2027.09",
-          "desc": "<strong>“SOTA is all you need.”</strong> You may study in a relatively free and open environment during your three-year journey--with higher demands on publications. You are exactly a Pre-PhD Student. ",
+          "desc": "<strong>“SOTA is all you need.”</strong> You may study in a relatively free and open environment during your three-year journey--with higher demands on publications. You are a pre-PhD student, actually. ",
           "link": ""
         },
         {
@@ -929,8 +960,34 @@
     }
   },
   "achievements": {
-    "groups": [],
-    "items": {}
+    "groups": [
+      {
+        "key": "applications",
+        "label": "Applications"
+      }
+    ],
+    "items": {
+      "applications": [
+        {
+          "image": "images/ach-quadrupedal-robot-2.gif",
+          "title": "Quadrupedal Robot",
+          "desc": "Based on the quadruped robot platform, we conducted research on navigation, multimodal spatial memory, and object localization algorithms and employed engineering implementation, with a primary objective of addressing practical application challenges across various scenarios such as inspection, delivery, and guided tours.",
+          "link": ""
+        },
+        {
+          "image": "images/ach-ai-xr-wearable-devices.gif",
+          "title": "AI/XR Wearable Devices",
+          "desc": "We have conducted research across egocentric vision, such as content analysis, interaction generation, and streaming memory for egocentric multimodal large models, while continuously exploring application scenarios for wearable smart devices--such as AI glasses and XR equipment, facilitating them with more active intelligence ability. ",
+          "link": ""
+        },
+        {
+          "image": "images/ach-physical-agent.gif",
+          "title": "Physical Agent",
+          "desc": "We are dedicated to developing integrated hardware-software physical agents that bring digital-space agents into the real world. By constructing an agent reasoning framework infused with spatial knowledge and integrating advanced embodied capability models, we are developing a universal \"embodied brain\" to empower a variety of robotic platforms.",
+          "link": ""
+        }
+      ]
+    }
   },
   "galleries": {
     "groups": [],
