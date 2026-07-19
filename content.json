@@ -138,7 +138,7 @@
       },
       {
         "key": "master",
-        "label": "Master Students"
+        "label": "Master’s Students"
       },
       {
         "key": "visiting",
@@ -207,7 +207,7 @@
       "master": [
         {
           "name": "Chong Liu",
-          "role": "Master Student (2024-)",
+          "role": "Master’s Student (2024-)",
           "photo": "images/people-chong-liu.jpg",
           "homepage": "",
           "scholar": "",
@@ -218,7 +218,7 @@
         },
         {
           "name": "Shuangle Li",
-          "role": "Master Student (2024-)",
+          "role": "Master’s Student (2024-)",
           "photo": "images/people-shuangle-li.jpg",
           "homepage": "https://setsaile.github.io",
           "scholar": "",
@@ -229,7 +229,7 @@
         },
         {
           "name": "Pengqi Chen",
-          "role": "Master Student (2024-)",
+          "role": "Master’s Student (2024-)",
           "photo": "images/people-pengqi-chen-2.jpg",
           "homepage": "",
           "scholar": "",
@@ -240,7 +240,7 @@
         },
         {
           "name": "Kaiyuan Deng",
-          "role": "Master Student (2024-)",
+          "role": "Master’s Student (2024-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
@@ -251,7 +251,7 @@
         },
         {
           "name": "Yufan Gu",
-          "role": "Master Student (2025-)",
+          "role": "Master’s Student (2025-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
@@ -262,7 +262,7 @@
         },
         {
           "name": "Ziheng Zhang",
-          "role": "Master Student (2026-)",
+          "role": "Master’s Student (2026-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
@@ -273,7 +273,7 @@
         },
         {
           "name": "Le Bo",
-          "role": "Master Student (2026-)",
+          "role": "Master’s Student (2026-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
@@ -284,7 +284,7 @@
         },
         {
           "name": "Siyuan Zeng",
-          "role": "Master Student (2026-)",
+          "role": "Master’s Student (2026-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
@@ -295,7 +295,7 @@
         },
         {
           "name": "Jiankang Zhao",
-          "role": "Master Student (2026-)",
+          "role": "Master’s Student (2026-)",
           "photo": "",
           "homepage": "",
           "scholar": "",
