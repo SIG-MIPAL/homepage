@@ -35,15 +35,20 @@
     "logo_opacity": "17",
     "logo": "images/MIPAL.png",
     "logo_position": "center",
-    "logo_size": "300",
-    "logo_shape": "triangle"
+    "logo_size": "410",
+    "logo_shape": "rounded",
+    "logo_x": 50,
+    "logo_y": 25
   },
   "nav": [
     "home",
     "news",
     "people",
     "publications",
+    "achievements",
     "resources",
+    "recruitment",
+    "gallery",
     "contact"
   ],
   "news": {
@@ -885,6 +890,51 @@
         }
       ]
     }
+  },
+  "recruitment_intro": [],
+  "recruitment": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Open Positions"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "title": "Practical Master‘s Student",
+          "type": "Enrollment in 2027.09",
+          "desc": "<strong>\"Talk is cheap, show me your code.\"</strong> Practical, application-oriented students may receive a much higher special scholarship and internship recommendation. Come and connect yourself to enterprises and get your offer early! ",
+          "link": ""
+        },
+        {
+          "title": "Academic Master‘s Student",
+          "type": "Enrollment in 2027.09",
+          "desc": "<strong>“SOTA is all you need.”</strong> You may study in a relatively free and open environment during your three-year journey--with higher demands on publications. You are exactly a Pre-PhD Student. ",
+          "link": ""
+        },
+        {
+          "title": "Doctoral Student",
+          "type": "Enrollment in 2027.03 or 2027.09",
+          "desc": "<strong>\"The last degree you can get.\"</strong> A way to an endless way with unknown risks and painful study, but also with charming scenery you may never have seen before. ",
+          "link": ""
+        },
+        {
+          "title": "Visiting Members",
+          "type": "Academic only",
+          "desc": "<strong>\"Let's be better together!\"</strong>--We are always open to any sincere, diligent, and optimistic friends. ",
+          "link": ""
+        }
+      ]
+    }
+  },
+  "achievements": {
+    "groups": [],
+    "items": {}
+  },
+  "galleries": {
+    "groups": [],
+    "items": {}
   },
   "contact": {
     "pi_name": "",

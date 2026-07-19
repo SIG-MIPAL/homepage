@@ -40,6 +40,64 @@
     sections.forEach(function (s) { observer.observe(s.el); });
   }
 
+  // ---- Achievements card carousel (lab page) ----
+  // Each .ach-carousel shows one .ach-card at a time; prev/next arrows, dot indicators, swipe, and
+  // arrow-key navigation (when hovered) flip through the cards. No-op if there are no carousels.
+  function initAchievementsCarousel() {
+    var carousels = document.querySelectorAll('.ach-carousel');
+    if (!carousels.length) return;
+    var active = null;
+    carousels.forEach(function (car) {
+      var track = car.querySelector('.ach-track');
+      var cards = car.querySelectorAll('.ach-card');
+      var prev = car.querySelector('.ach-prev');
+      var next = car.querySelector('.ach-next');
+      var dots = car.querySelectorAll('.ach-dot');
+      if (!track || !cards.length) return;
+      var n = cards.length;
+      if (n === 1) {
+        if (prev) prev.style.display = 'none';
+        if (next) next.style.display = 'none';
+        var dotsWrap = car.querySelector('.ach-dots');
+        if (dotsWrap) dotsWrap.style.display = 'none';
+        return;
+      }
+      var idx = 0;
+      function render() {
+        track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+        dots.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
+      }
+      function go(i) { idx = (i + n) % n; render(); }
+      if (prev) prev.addEventListener('click', function () { go(idx - 1); });
+      if (next) next.addEventListener('click', function () { go(idx + 1); });
+      dots.forEach(function (d, i) { d.addEventListener('click', function () { go(i); }); });
+      car.addEventListener('mouseenter', function () { active = car; });
+      car.addEventListener('mouseleave', function () { if (active === car) active = null; });
+      var vp = car.querySelector('.ach-viewport');
+      if (vp) {
+        var sx = 0, tracking = false;
+        vp.addEventListener('touchstart', function (e) {
+          if (e.touches.length === 1) { sx = e.touches[0].clientX; tracking = true; }
+        }, { passive: true });
+        vp.addEventListener('touchend', function (e) {
+          if (!tracking) return; tracking = false;
+          var dx = (e.changedTouches[0] ? e.changedTouches[0].clientX : sx) - sx;
+          if (Math.abs(dx) > 40) { if (dx < 0) go(idx + 1); else go(idx - 1); }
+        });
+      }
+      render();
+    });
+    if (!window._achKeyBound) {
+      window._achKeyBound = true;
+      document.addEventListener('keydown', function (e) {
+        if (!active) return;
+        if (e.key === 'ArrowLeft') { var p = active.querySelector('.ach-prev'); if (p) p.click(); e.preventDefault(); }
+        else if (e.key === 'ArrowRight') { var nx = active.querySelector('.ach-next'); if (nx) nx.click(); e.preventDefault(); }
+      });
+    }
+  }
+  initAchievementsCarousel();
+
   // ---- Publication hover preview popover ----
   var preview = document.getElementById('pub-preview');
   var previewImg = preview ? preview.querySelector('img') : null;
