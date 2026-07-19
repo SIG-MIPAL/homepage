@@ -64,7 +64,7 @@
     {
       "id": "resources",
       "title": "Resources",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "recruitment",
@@ -74,7 +74,7 @@
     {
       "id": "gallery",
       "title": "Gallery",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "contact",
@@ -296,7 +296,7 @@
         {
           "name": "Jiankang Zhao",
           "role": "Master’s Student (2026-)",
-          "photo": "",
+          "photo": "images/jiankang-zhao.jpg",
           "homepage": "",
           "scholar": "",
           "github": "",
