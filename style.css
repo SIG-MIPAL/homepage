@@ -235,10 +235,11 @@ main { display: block; }
   border-radius: 10px; padding: 18px 20px;
 }
 .ach-img {
-  flex: 0 0 240px; width: 240px; height: 160px; background: var(--bg-alt);
-  border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center;
+  flex: 0 0 var(--ach-w, 360px); width: var(--ach-w, 360px); height: var(--ach-h, 240px);
+  background: var(--bg-alt); border-radius: 8px; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
 }
-.ach-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ach-img img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .ach-body { min-width: 0; flex: 1 1 auto; }
 .ach-title { font-size: 1.1rem; margin: 0 0 6px; }
 .ach-desc { color: #374151; margin: 0 0 8px; }
@@ -326,7 +327,7 @@ main { display: block; }
   .pub-thumb { flex: none; width: 100%; height: 150px; }
 
   .ach-card { flex-direction: column; gap: 14px; }
-  .ach-img { flex: none; width: 100%; height: 160px; }
+  .ach-img { flex: none; width: 100%; height: 220px; }
 
   .album-cover { height: 150px; }
   .album-photo img { height: 150px; }

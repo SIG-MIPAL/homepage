@@ -68,11 +68,18 @@
         dots.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
       }
       function go(i) { idx = (i + n) % n; render(); }
-      if (prev) prev.addEventListener('click', function () { go(idx - 1); });
-      if (next) next.addEventListener('click', function () { go(idx + 1); });
-      dots.forEach(function (d, i) { d.addEventListener('click', function () { go(i); }); });
-      car.addEventListener('mouseenter', function () { active = car; });
-      car.addEventListener('mouseleave', function () { if (active === car) active = null; });
+      // Auto-advance: data-auto is the interval in seconds (set per group in the admin). Pauses
+      // while the mouse hovers the carousel; resumes on leave. Manual nav resets the timer so the
+      // user's pick is not immediately overridden.
+      var autoSec = parseFloat(car.getAttribute('data-auto'));
+      var timer = null;
+      function stopAuto() { if (timer) { clearInterval(timer); timer = null; } }
+      function startAuto() { stopAuto(); if (isFinite(autoSec) && autoSec > 0) { timer = setInterval(function () { go(idx + 1); }, autoSec * 1000); } }
+      if (prev) prev.addEventListener('click', function () { go(idx - 1); startAuto(); });
+      if (next) next.addEventListener('click', function () { go(idx + 1); startAuto(); });
+      dots.forEach(function (d, i) { d.addEventListener('click', function () { go(i); startAuto(); }); });
+      car.addEventListener('mouseenter', function () { active = car; stopAuto(); });
+      car.addEventListener('mouseleave', function () { if (active === car) active = null; startAuto(); });
       var vp = car.querySelector('.ach-viewport');
       if (vp) {
         var sx = 0, tracking = false;
@@ -82,10 +89,11 @@
         vp.addEventListener('touchend', function (e) {
           if (!tracking) return; tracking = false;
           var dx = (e.changedTouches[0] ? e.changedTouches[0].clientX : sx) - sx;
-          if (Math.abs(dx) > 40) { if (dx < 0) go(idx + 1); else go(idx - 1); }
+          if (Math.abs(dx) > 40) { if (dx < 0) go(idx + 1); else go(idx - 1); startAuto(); }
         });
       }
       render();
+      startAuto();
     });
     if (!window._achKeyBound) {
       window._achKeyBound = true;
