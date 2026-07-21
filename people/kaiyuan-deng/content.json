@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "title": "Kaiyuan Deng's Homepage",
+    "description": "M.Eng. Student at UESTC | Embodied Intelligence | Multimodal Perception",
+    "keywords": "",
+    "favicon": "",
+    "last_updated": ""
+  },
+  "profile": {
+    "name": "Kaiyuan Deng",
+    "photo": "images/kaiyuan-deng.jpg",
+    "tagline": "M.Eng. Student at UESTC | Embodied Intelligence | Multimodal Perception",
+    "bio": [
+      "I am Kaiyuan Deng, an M.Eng. student in Computer Technology at the University of Electronic Science and Technology of China (UESTC). My research focuses on embodied intelligence and multimodal perception, with particular interests in robotic manipulation and multimodal large language models.",
+      "My work spans egocentric visual reasoning, vision-language-action learning, 3D hand-trajectory prediction, high-value data selection, and embodied robotic systems. I enjoy turning research ideas into reliable systems through real-robot deployment, 3D perception, and simulation."
+    ],
+    "email": "mantou.cloud@gmail.com",
+    "links": [
+      {
+        "label": "Personal Homepage",
+        "url": "https://mantou-cloud.github.io"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mantou-cloud"
+      },
+      {
+        "label": "CV",
+        "url": "https://mantou-cloud.github.io/assets/pdf/resume.pdf"
+      }
+    ]
+  },
+  "member": {
+    "slug": "kaiyuan-deng",
+    "type": "master"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "enabled": true
+    },
+    {
+      "id": "sec-1784638828076",
+      "type": "experience",
+      "title": "Experience",
+      "enabled": true,
+      "items": []
+    },
+    {
+      "id": "publications",
+      "type": "publications",
+      "title": "Publications",
+      "enabled": true
+    },
+    {
+      "id": "awards",
+      "type": "awards",
+      "title": "Awards",
+      "enabled": true
+    },
+    {
+      "id": "news",
+      "type": "news",
+      "title": "News",
+      "enabled": true
+    }
+  ],
+  "news": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "News"
+      }
+    ],
+    "items": {
+      "main": []
+    }
+  },
+  "education": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Education"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/uestc-logo.png",
+          "period": "Sep. 2024 - Jun. 2027 (expected)",
+          "institution": "University of Electronic Science and Technology of China (UESTC)",
+          "details": [
+            "Professional M.Eng. in Computer Technology, School of Computer Science and Engineering",
+            "Research: embodied intelligence and multimodal perception",
+            {
+              "note": "Graduate Academic Scholarship"
+            }
+          ]
+        },
+        {
+          "logo": "images/uestc-logo.png",
+          "period": "Sep. 2020 - Jun. 2024",
+          "institution": "University of Electronic Science and Technology of China (UESTC)",
+          "details": [
+            "B.Eng. in Data Science and Big Data Technology, School of Computer Science and Engineering",
+            "GPA: 3.98/4.00",
+            {
+              "note": "First-Class Academic Scholarship for two consecutive years"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "publications": {
+    "groups": [
+      {
+        "key": "journals",
+        "label": "Journal Papers"
+      },
+      {
+        "key": "conferences",
+        "label": "Conference Papers"
+      }
+    ],
+    "items": {
+      "journals": [
+        {
+          "id": "truth-few",
+          "title": "Truth in the Few: High-Value Data Selection for Efficient Multi-Modal Reasoning",
+          "authors": [
+            {
+              "name": "Shenshen Li"
+            },
+            {
+              "name": "Kaiyuan Deng",
+              "self": true
+            },
+            {
+              "name": "Lei Wang"
+            },
+            {
+              "name": "Hao Yang"
+            },
+            {
+              "name": "Chong Peng"
+            },
+            {
+              "name": "Peng Yan"
+            },
+            {
+              "name": "Fumin Shen"
+            },
+            {
+              "name": "Heng Tao Shen"
+            },
+            {
+              "name": "Xing Xu"
+            }
+          ],
+          "venue_full": "IEEE Transactions on Multimedia (under review)",
+          "venue_short": "TMM, under review",
+          "thumb": "images/truth-in-few-framework.png",
+          "preview": "images/truth-in-few-framework.png",
+          "paper_link": "",
+          "code_link": "",
+          "keywords": "multimodal reasoning; high-value data selection; reinforcement learning; causal discrepancy"
+        }
+      ],
+      "conferences": [
+        {
+          "id": "ego3s",
+          "title": "Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning",
+          "authors": [
+            {
+              "name": "Shenshen Li"
+            },
+            {
+              "name": "Kaiyuan Deng",
+              "self": true
+            },
+            {
+              "name": "Ruohuai Xie"
+            },
+            {
+              "name": "Xing Xu"
+            },
+            {
+              "name": "Heng Tao Shen"
+            },
+            {
+              "name": "Yazhou Yao"
+            },
+            {
+              "name": "Fumin Shen"
+            }
+          ],
+          "venue_full": "International Conference on Machine Learning",
+          "venue_short": "ICML 2026",
+          "thumb": "images/ego3s-framework.png",
+          "preview": "images/ego3s-framework.png",
+          "paper_link": "",
+          "code_link": "",
+          "keywords": "egocentric reasoning; multimodal large language models; reinforcement learning; data selection"
+        },
+        {
+          "id": "mivla",
+          "title": "MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual Imitation Pre-training",
+          "authors": [
+            {
+              "name": "Zhenhan Yin"
+            },
+            {
+              "name": "Xuanhan Wang"
+            },
+            {
+              "name": "Jiahao Jiang"
+            },
+            {
+              "name": "Kaiyuan Deng",
+              "self": true
+            },
+            {
+              "name": "Pengqi Chen"
+            },
+            {
+              "name": "Shuangle Li"
+            },
+            {
+              "name": "Chong Liu"
+            },
+            {
+              "name": "Xing Xu"
+            },
+            {
+              "name": "Jingkuan Song"
+            },
+            {
+              "name": "Lianli Gao"
+            },
+            {
+              "name": "Heng Tao Shen"
+            }
+          ],
+          "venue_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, Findings",
+          "venue_short": "CVPR 2026 Findings",
+          "thumb": "images/mivla-framework.png",
+          "preview": "images/mivla-framework.png",
+          "paper_link": "https://arxiv.org/abs/2512.15411",
+          "code_link": "",
+          "keywords": "vision-language-action; mutual imitation; robot learning; cross-embodiment learning"
+        },
+        {
+          "id": "vci",
+          "title": "Visual Causal Intervention for 3D Egocentric Multimodal Hand Trajectory Forecasting",
+          "authors": [
+            {
+              "name": "Kaiyuan Deng",
+              "self": true
+            },
+            {
+              "name": "Xun Jiang"
+            },
+            {
+              "name": "Zheng Wang"
+            },
+            {
+              "name": "Fumin Shen"
+            },
+            {
+              "name": "Xing Xu"
+            }
+          ],
+          "venue_full": "IEEE International Conference on Multimedia and Expo",
+          "venue_short": "ICME 2026",
+          "thumb": "images/vci-framework.png",
+          "preview": "images/vci-framework.png",
+          "paper_link": "",
+          "code_link": "",
+          "keywords": "3D hand trajectory forecasting; visual causal intervention; egocentric vision; multimodal learning"
+        }
+      ]
+    }
+  },
+  "awards": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Awards"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "date": "",
+          "text": "Graduate Academic Scholarship"
+        },
+        {
+          "date": "",
+          "text": "First-Class Academic Scholarship for two consecutive years"
+        },
+        {
+          "date": "",
+          "text": "Provincial Second Prize, Datang Cup"
+        },
+        {
+          "date": "",
+          "text": "Provincial Second Prize, Huawei Cup"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "groups": [
+      {
+        "key": "main",
+        "label": "Experience"
+      }
+    ],
+    "items": {
+      "main": [
+        {
+          "logo": "images/huawei.png",
+          "period": "2026.05-Present",
+          "organization": "华为2012实验室",
+          "role": "自动驾驶算法实习生",
+          "details": []
+        }
+      ]
+    }
+  }
+}
